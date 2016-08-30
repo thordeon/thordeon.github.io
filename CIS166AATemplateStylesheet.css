@@ -1,0 +1,242 @@
+/*
+   <!-- 
+      CIS166AA Intro to Javascripting 
+      Author: Jennifer Gideon
+      Date:   8/23/2016
+
+      Filename: CIS166AATemplateStylesheet.css
+      Supporting files: cherryWoodBG.jpg, wavesBG.jpg
+   -->
+
+*/
+
+
+
+/* Body styles */
+
+body
+{
+    background-image: url('cherryWoodBG.jpg')
+}
+
+
+
+
+
+/* Header Styles */
+
+#header a
+{
+    font-size: .80em;
+}
+#header a:link,
+#header a:visited
+{
+    color: #000;
+}
+#header a:focus,
+#header a:hover
+{
+    color: #eee;
+}
+#header
+{
+    height: 120px;
+    padding: 0 20px;
+
+    text-align: left;
+
+    color: #c6c;
+    border-bottom: 2px solid #000;
+    background-color: #636631;
+    background-image: url(wavesBG.jpg);
+    background-repeat: repeat-x;
+    background-position: center;
+}
+#loonlogo
+{
+    float: right;
+}
+
+
+
+
+
+/* Nav Styles */
+
+#nav ul
+{
+    list-style-type: none;
+}
+#nav a
+{
+    font-size: 1.2em;
+
+    text-decoration: none;
+}
+#nav a:link
+{
+    color: #006400;
+}
+#nav a:visited
+{
+    color: #228b22;
+}
+#nav a:focus,
+#nav a:hover
+{
+    color: #808000;
+}
+#nav a:active
+{
+    color: #000;
+}
+
+#nav
+{
+    font-family: Century Gothic, sans-serif;
+
+    float: left;
+
+    width: 150px;
+    margin: 25px;
+}
+
+
+
+
+
+
+
+/* Font Styles */
+
+p
+{
+    font-family: Georgia, serif;
+
+    color: #000;
+}
+
+h1
+{
+    font-size: 3em;
+
+    margin-top: 0;
+
+    text-align: left;
+
+    text-shadow: 2px 2px 2px #000;
+}
+
+
+
+
+
+/* Photo Styles */
+#floatright
+{
+    float: right;
+
+    margin: 10px;
+}
+#floatleft
+{
+    float: left;
+
+    margin: 10px;
+}
+#floatleft2
+{
+    float: left;
+
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+/* Footer styles */
+
+
+address
+{
+    text-align: center;
+
+    color: #fff;
+}
+
+#footer
+{
+    font-size: .70em;
+
+    clear: both;
+
+    padding-top: 10px;
+
+    text-align: center;
+
+    color: #fff;
+}
+
+
+
+
+
+
+#container
+{
+    font-family: Georgia, serif;
+
+    position: relative;
+
+    width: 1024px;
+    margin: 0 auto;
+
+    color: #060;
+    background-color: #d2b48c;
+}
+#rightside
+{
+    float: right;
+
+    width: 200px;
+}
+#center
+{
+    margin: 0 210px 0 160px;
+    padding: 1px 10px 20px 10px;
+
+    color: #060;
+    background-color: #fff;
+}
+#center p
+{
+    margin: 20px;
+}
+#center h2,
+#center h3
+{
+    color: #006400;
+    background-color: #fff;
+}
+#sidebar h3
+{
+    font-size: .90em;
+
+    margin: 10px;
+    padding-bottom: 2px;
+
+    color: #c6c;
+    border-bottom: 1px solid #000;
+    background-color: #eee;
+}
+.righttext
+{
+    font-size: .80em;
+
+    margin: 10px;
+}
